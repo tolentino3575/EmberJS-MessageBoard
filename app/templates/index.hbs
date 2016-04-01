@@ -1,1 +1,10 @@
-{{outlet}}
+<h4>Ask a question, find some answers!</h4>
+
+<ul>
+  {{#each model as |question|}}
+    {{question.author}} asks:<br>
+    {{question.content}}<br>
+    Notes: {{question.notes}}<br>
+    <br>
+  {{/each}}
+</ul>
