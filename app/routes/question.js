@@ -24,7 +24,12 @@ export default Ember.Route.extend({
     },
     deleteQuestion(question) {
       if(confirm("WIPE THIS QUESTION OFF THE FACE OF THE INTERENT")){
-        question.destroyRecord();
+        var rental_deletions = question.get('answers').map(function(answer) {
+          return answer.destroyRecord();
+        });
+        Ember.RSVP.all(rental_deletions).then(function(){
+          return question.destroyRecord();
+        });
         this.transitionTo('index');
       }
     }
