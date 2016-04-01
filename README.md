@@ -18,6 +18,7 @@ You will need the following things properly installed on your computer.
 * change into the new directory
 * `npm install`
 * `bower install`
+* `ember install emberfire`
 
 ## Running / Development
 
@@ -38,9 +39,8 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
+### Bugs
+Auto populates form fields if added one after another
 
 ## Further Reading / Useful Links
 
