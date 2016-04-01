@@ -1,7 +1,6 @@
 # Message-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This message-board allows the user to post questions, displaying the title of the question to the board. Users can click the title, linking them to a details page where the content of the question may be viewed. There is the option to answer the question on each individual question's page. User also has ability to update the question directly on its page, or delete it as well.
 
 ## Prerequisites
 
@@ -50,4 +49,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
