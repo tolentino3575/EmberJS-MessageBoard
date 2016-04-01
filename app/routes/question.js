@@ -21,6 +21,11 @@ export default Ember.Route.extend({
         }
       });
       question.save();
+    },
+    deleteQuestion(question) {
+      if(confirm("WIPE THIS QUESTION OFF THE FACE OF THE INTERENT")){
+        question.destroyRecord();
+      }
     }
   }
 });
