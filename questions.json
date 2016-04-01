@@ -1,13 +1,16 @@
 { "questions": [{
     "author": "Erik P.",
+    "title": "Lunch",
     "content": "What should I get for lunch?",
     "notes": "Pls respond quick! I'm hungry!"
   }, {
     "author": "Erik C.",
+    "title": "Hot",
     "content": "What's the temperaure of the sun?",
     "notes": "It's really bright today and I'm sweating more than usual.."
   }, {
     "author": "Erik B.",
+    "title": "Mole",
     "content": "Should I be concerned about the mole on my toe?",
     "notes": "It's huge. Like half dollar big."
   }]

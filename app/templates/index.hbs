@@ -1,10 +1,9 @@
-<h4>Ask a question, find some answers!</h4>
+<h4>Ask a question, find an answer!</h4>
 
 <ul>
   {{#each model as |question|}}
-    {{question.author}} asks:<br>
-    {{question.content}}<br>
-    Notes: {{question.notes}}<br>
-    <br>
+    {{question-til question=question}}
   {{/each}}
 </ul>
+
+{{new-question saveQuestion='saveQuestion'}}
