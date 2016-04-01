@@ -1,10 +1,9 @@
-{{question-detail question=model}}
+{{question-detail question=model}}<br>
+{{update-question updateQuestion="updateQuestion" question=question}}
 <hr>
 
 <h3>Responses</h3>
+<br>
 
-{{#each question.answers as |answer|}}
-  {{answer.author}}
-{{/each}}
-
+{{answer-display question=model}}<br>
 {{new-answer question=model saveAnswer="saveAnswer"}}
