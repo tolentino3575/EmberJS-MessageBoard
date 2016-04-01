@@ -13,5 +13,13 @@
     "title": "Mole",
     "content": "Should I be concerned about the mole on my toe?",
     "notes": "It's huge. Like half dollar big."
+  }],
+
+  "answers": [{
+    "author": "Berik Tee",
+    "content": "Chicken!"
+  }, {
+    "author": "Berik See",
+    "content": "Rice!"
   }]
 }

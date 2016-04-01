@@ -1,9 +1,9 @@
 <h4>Ask a question, find an answer!</h4>
 
-<ul>
-  {{#each model as |question|}}
-    {{question-til question=question}}
-  {{/each}}
-</ul>
 
+{{#each model.questions as |question|}}
+  {{question-til question=question}}
+{{/each}}
+<br>
+<br>
 {{new-question saveQuestion='saveQuestion'}}

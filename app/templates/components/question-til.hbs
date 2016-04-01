@@ -1,1 +1,10 @@
-{{#link-to 'question' question.id}}{{question.title}}{{/link-to}} by {{question.author}}
+<div>
+  <div class="col-md-10">
+    {{#link-to 'question' question.id}}{{question.title}}{{/link-to}}
+  </div>
+  <div class="col-md-2">
+    by {{question.author}}
+  </div>
+  <hr>
+</div>
+<hr>
