@@ -1,6 +1,6 @@
 <div>
   <div class="col-md-10">
-    {{#link-to 'question' question.id}}<p>{{question.title}}</p>{{/link-to}}
+    {{question-popularity question}}{{#link-to 'question' question.id}}<p>{{question.title}}</p>{{/link-to}}
   </div>
   <div class="col-md-2">
     <p>by {{question.author}}</p>
