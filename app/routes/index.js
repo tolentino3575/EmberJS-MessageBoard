@@ -14,5 +14,14 @@ export default Ember.Route.extend({
       newQuestion.save();
       this.transitionTo('index');
     }
-  }
+  },
+
+  popularQuestions: Ember.computed('questions.answers.length', function(){
+    var popQuestions = [];
+    var questions = this.get('question');
+    if(questions.get('answers').get('length') >= 5){
+      popQuestions.push(questions);
+    }
+    return popQuestions;
+  })
 });

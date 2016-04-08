@@ -9,8 +9,9 @@ export default Ember.Route.extend({
 
   actions: {
     favoriteQuestion(question) {
-      if(confirm("Favorite this Question?")){
-        this.get('favoritedQuestions').add('question');
+      if(confirm("Favorited!")){
+        this.get('favoritedQuestions').add(question);
+        this.transitionTo('index');
       }
     },
 
