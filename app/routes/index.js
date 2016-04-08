@@ -23,5 +23,9 @@ export default Ember.Route.extend({
       popQuestions.push(question);
     }
     return popQuestions;
+    for(var i = 0; i <= popQuestions.length; i++){
+      return popQuestions.toString();
+    }
   })
+  //popularQuestions does not work, does not console log anything
 });
