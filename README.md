@@ -40,7 +40,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build --environment production` (production)
 
 ### Bugs
-Auto populates form fields if added one after another
+Auto populates form fields if added one after another, does not display popular questions on home page.
 
 ## Further Reading / Useful Links
 
