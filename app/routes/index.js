@@ -18,9 +18,9 @@ export default Ember.Route.extend({
 
   popularQuestions: Ember.computed('questions.answers.length', function(){
     var popQuestions = [];
-    var questions = this.get('question');
-    if(questions.get('answers').get('length') >= 5){
-      popQuestions.push(questions);
+    var question = this.get('question');
+    if(question.get('answers').get('length') >= 5){
+      popQuestions.push(question);
     }
     return popQuestions;
   })

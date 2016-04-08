@@ -3,10 +3,11 @@
 
 {{#each model.questions as |question|}}
   {{question-til question=question}}
+  <hr>
 {{/each}}
 <br>
 {{new-question saveQuestion='saveQuestion'}}
 <br>
 {{display-favorites}}
 <br>
-<p>Popular Questions: {{popularQuestions}}</p>
+<p><u>Popular Questions:</u> {{popularQuestions}}</p>

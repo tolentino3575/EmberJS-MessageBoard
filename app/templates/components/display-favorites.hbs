@@ -1,4 +1,5 @@
-<h5>Favorited Questions:</h5>
+<h5><u>Favorited Questions:</u></h5>
+
 {{#each favoritedQuestions.questions as |question|}}
-  <li>{{question.title}}</li>
+  <p>{{#link-to 'question' question.id}}{{question.title}}{{/link-to}}</p>
 {{/each}}
